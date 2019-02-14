@@ -14,7 +14,7 @@ I use [virtualenv](https://virtualenv.pypa.io/en/latest/) to manage development 
 4. Follow the on screen instructions
 
 # Upcoming Improvements
-1. Reading up on the graphics.py library to enhance the graphics from terminal/text to something much more appealing.
+1. Reading up on the graphics.py library to enhance the graphics from terminal/text to something much more appealing. 
 2. Adding the ability for the user to create their own starting 'soups' as currently the code randomizes a soup upon initalization
 3. Adding functionality to write soups/seeds to a text file for later recall/display
-4. Possibly adding the ability to modify the standard rules (i.e. change the number of neighbors that instigate continued life, death or instantiated life.
+4. Possibly adding the ability to modify the standard rules (i.e. change the number of neighbors that instigate continued life, instantiated life or death.

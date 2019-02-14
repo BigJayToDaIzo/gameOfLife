@@ -2,6 +2,8 @@ import random
 import os
 import time
 
+from graphics import *
+
 def random_state(height: int, width: int):
   """
   Function takes in 2 args (height and width) and returns a board_state (list) in which every cell has been randomly 
@@ -322,14 +324,16 @@ def pretty_print(board: list):
   #print bottom of board
   print_horiz_border(board_width)
 
-height = input("Enter board height: ")
-width = input("Enter board width: ")
-time_between_frames = input("Number of seconds between frames: (float)")
+def main():
+  height = input("Enter board height: ")
+  width = input("Enter board width: ")
+  time_between_frames = input("Number of seconds between frames: (float)")
 
-soup = random_state(int(height), int(width))
-while(1):
-  pretty_print(soup)
-  soup = next_board_state(soup)
-  #time.sleep(float(time_between_frames))
-  time.sleep(0.3)
-  os.system('clear')
+  soup = random_state(int(height), int(width))
+  while(1):
+    pretty_print(soup)
+    soup = next_board_state(soup)
+    time.sleep(float(time_between_frames))
+    os.system('clear')
+
+#main()
