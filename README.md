@@ -1,5 +1,5 @@
-# gameOfLife
-Building my own iteration of Conway's Game of Life as a resume building exercise
+#GameOfLife
+Building my own iteration of Conway's Game of Life as a resume building exercise.
 
 After recently being furloughed by NASA I decided I wanted to spruce up my Python skills as I had been coding in exclusively Java for the last year or so.  I come across the Wiki for [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) and it appeared to be something I should be able to bang together in a few days.
 
