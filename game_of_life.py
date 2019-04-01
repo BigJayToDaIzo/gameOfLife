@@ -323,17 +323,15 @@ def pretty_print(board: list):
   print_horiz_border(board_width)
 
 def main():
-  """ height = int(input("Enter board height: "))
+  height = int(input("Enter board height: "))
   width = int(input("Enter board width: "))
   time_between_frames = input("Number of seconds between frames (float): ")
-  win_height = 3 * height
-  win_width = 3 * width """
 
-  """ soup = random_state(int(height), int(width))
+  soup = random_state(int(height), int(width))
   while(1):
     pretty_print(soup)
     soup = next_board_state(soup)
     time.sleep(float(time_between_frames))
-    os.system('clear') """
+    os.system('clear')
 
 main()
